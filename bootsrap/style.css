@@ -1,0 +1,35 @@
+/* div {
+  height: 250px;
+  background-color: purple;
+  color: white;
+  font-size: 50px;
+  margin: 30px;
+} */
+/* 
+.row {
+  background-color: rgb(235, 158, 14);
+  border: 3px solid rgb(12, 9, 2);
+  padding: 5px;
+  margin: 10px;
+}
+
+.col {
+  background-color: blue;
+  color: white;
+  font-size: 50px;
+  border: 2px solid rgb(19, 68, 160);
+} */
+
+.columna {
+  color: white;
+  font-size: 25px;
+  background-color: blue;
+  border: 5px solid white;
+}
+
+.row {
+  background-color: brown;
+  border: 3px solid rgb(12, 9, 2);
+  padding: 7px;
+  margin: 10px;
+}

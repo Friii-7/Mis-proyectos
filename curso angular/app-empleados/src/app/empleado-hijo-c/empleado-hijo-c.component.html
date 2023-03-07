@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div>
+        {{ indice + 1 }}: {{ empleadoDeLista.nombre }}
+        {{ empleadoDeLista.apellido }}
+        {{ empleadoDeLista.cargo }}
+        {{ empleadoDeLista.salario }}
+      </div>
+
+      <app-caractristicas-empleado-c
+        (CaractristicasEmpleados)="agregarCaractristica($event)"
+      ></app-caractristicas-empleado-c>
+
+      <ul style="list-style: none">
+        <li *ngFor="let carctristica of arrayCaractristicas">
+          {{ carctristica }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
